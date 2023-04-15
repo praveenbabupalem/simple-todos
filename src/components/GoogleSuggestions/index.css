@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.search-container {
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.search {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-left: 25px;
+  background: url('https://assets.ccbp.in/frontend/react-js/google-search-icon.png')
+    no-repeat left;
+  background-size: 20px;
+}
