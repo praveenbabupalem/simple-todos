@@ -29,3 +29,7 @@
     no-repeat left;
   background-size: 20px;
 }
+
+.list-items {
+  display: flex;
+}

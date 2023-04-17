@@ -19,9 +19,9 @@ class GoogleSuggestions extends Component {
         />
         <div className="search-container">
           <input type="search" className="search" placeholder="Search Google" />
-          <ul>
+          <ul className="list-items">
             {suggestionsList.map(eachSearch => (
-              <SuggestionItem />
+              <SuggestionItem searchDetails={eachSearch} key={eachSearch.id} />
             ))}
           </ul>
         </div>
